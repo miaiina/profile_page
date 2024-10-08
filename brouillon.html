@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Utilisateur</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+  /* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Profile Container */
+.profile-container {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Profile Header */
+.profile-header {
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.profile-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.profile-bio {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Profile Information */
+.profile-info {
+  padding: 20px;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.profile-details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.profile-links h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-links ul li {
+  margin-bottom: 10px;
+}
+
+.profile-links ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #007bff;
+}
+
+.profile-links ul li a i {
+  margin-right: 10px;
+}
+
+/* Footer */
+.profile-footer {
+  padding: 10px;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+}
+</style>
+</head>
+<body>
+  <div class="profile-container">
+    <!-- Profile Header -->
+    <header class="profile-header">
+      <div class="profile-img">
+        <img src="profile.jpg" alt="Photo de profil">
+      </div>
+      <h1 class="profile-name">Nom Utilisateur</h1>
+      <p class="profile-bio">Développeur Web | Passionné de Technologie | Explorateur</p>
+    </header>
+
+    <!-- Profile Content -->
+    <section class="profile-info">
+      <div class="profile-details">
+        <h3>À propos de moi</h3>
+        <p>Je suis un développeur passionné, spécialisé dans le développement front-end et la création d'interfaces utilisateur intuitives et élégantes.</p>
+      </div>
+      <div class="profile-links">
+        <h3>Me contacter</h3>
+        <ul>
+          <li><a href="mailto:email@exemple.com"><i class="fas fa-envelope"></i> email@exemple.com</a></li>
+          <li><a href="https://www.linkedin.com/in/utilisateur" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="https://github.com/utilisateur" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+          <li><a href="https://twitter.com/utilisateur" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="profile-footer">
+      <p>&copy; 2024 Mon Profil</p>
+    </footer>
+  </div>
+</body>
+</html>
